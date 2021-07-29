@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="custom-css/style.css">
 </head>
 <body>
-    <header style="background-color: #264653; width: 100%;">
+    <header id="Top" style="background-color: #264653; width: 100%;">
         <!-- Honda CDR top section -->
         <section class="d-lg-flex justify-content-between align-items-center container py-3">
             <!-- text button and title division -->
@@ -63,10 +63,10 @@
 
     <main>
         <!-- features bike section -->
-        <article class="container  my-5">
+        <article id="Features" class="container  my-5">
             <!-- title  -->
             <div class="d-flex flex-column align-items-center justify-content-center"> <br>
-                <h1 class="fs-1 fw-bold mb-0">Fetured Bikes 2021</h1>
+                <h1 class="fs-1 fw-bold mb-0">Featured Bikes 2021</h1>
                 <p class="fs-6 fw-bold mb-0 orange">Best Bike Collection</p>
                 <hr class="w-25 mt-1 mb-lg-5">   <!--as bootstrap doesn't use lower than 25% with -->
             </div> <br> <br>
@@ -82,7 +82,7 @@
 
         <!-- nb: According to the requirement, Using most of the bootstrap, couldn't match the actual width and height of the card with the fig file but that are the nearest size to the required size  -->
 
-        <article class="container mb-5">
+        <article id="Reviews" class="container mb-5">
             <h1 class="fw-bold text-center mt-5 mb-5">Happy <span class="orange">Clients Says</span></h1>
             <section class="row row-cols-1 row-cols-md-3 gap-md-5 gap-xl-0 justify-content-evenly">
               <div class="col p-0 mt-4 mt-md-0">
@@ -156,7 +156,7 @@
         <br> <br>
         <!-- FAQ Article  -->
         
-        <article class="container mb-5 mt-lg-5 px-4 px-md-0">
+        <article id="Question" class="container mb-5 mt-lg-5 px-4 px-md-0">
           <h1 class="fs-1 fw-bold text-center mb-5">Frequently Asked <span class="orange">Questions</span></h1>
           <section class="row align-items-center">
             <div class="col-lg-6 col-12 d-flex justify-content-center mb-5 mb-lg-0">
@@ -235,7 +235,10 @@
           </section>
         </article>
         <br><br>
-        <article class="container">
+
+        <!-- Bonus Area ,Image Gallery -->
+
+        <article id="Gal" class="container">
           <h1 class="fs-1 fw-bold und">GALLERY</h1> <br> <br>
           <section>
             <div class="row g-4">
@@ -247,6 +250,61 @@
             <div class="d-grid"><button type="button" class="btn btn-outline-danger">See All Gallery Photo</button></div>
           </section>
         </article>
+        <br> <br>
+        <!-- Controlling and Going  -->
+        <article class="container">
+          <h5>Go To:-</h5>
+          <div class="btn-group gap-1 d-flex justify-content-center flex-wrap" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none text-white" href="#Top">Top Website</a></button>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none text-white" href="#Features">Featured Bike</a></button>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none text-white" href="#Reviews">Client Reviews</a></button>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none text-white" href="#Question">Client FAQ</a></button>
+            <button type="button" class="btn btn-primary"><a class="text-decoration-none text-white" href="#Gal">Gallery</a></button>
+
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Login
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Login Here of if you new here Then Sign-up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Login -->
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </a></button>
+          </div>
+        </article>
+        <br> <br>
+        
     </main>
     <footer>
 
