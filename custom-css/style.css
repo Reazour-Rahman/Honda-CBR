@@ -30,3 +30,24 @@ body{
 .text-half-black{
     color: #383838;
 }
+
+/* Underline hover  */
+.und{
+    cursor: pointer;
+}
+.und::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: rgb(12, 3, 41);
+    display: block;
+    transition: 1s;
+}
+
+.und:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
