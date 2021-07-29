@@ -37,11 +37,42 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        ...
+                          <!-- submission form  -->
+                          <form class="row row-cols-lg-auto g-3 align-items-center">
+                            <div class="col-12">
+                              <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                              <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                              </div>
+                            </div>
+                          
+                            <div class="col-12">
+                              <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                              <select class="form-select" id="inlineFormSelectPref">
+                                <option selected>Choose...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                            </div>
+                          
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                <label class="form-check-label" for="inlineFormCheck">
+                                  Remember me
+                                </label>
+                              </div>
+                            </div>
+                          
+                            <div class="col-12">
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                          </form>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -80,7 +111,7 @@
         </article> <br> <br>
         <!-- Happy Client Reviews Section  -->
 
-        <!-- nb: According to the requirement, Using most of the bootstrap, couldn't match the actual width and height of the card with the fig file but that are the nearest size to the required size  -->
+        <!-- nb: According to the requirement, Using most of the bootstrap classes, couldn't match the actual width and height of the card with the fig file but that are the nearest size to the required size  -->
 
         <article id="Reviews" class="container mb-5">
             <h1 class="fw-bold text-center mt-5 mb-5">Happy <span class="orange">Clients Says</span></h1>
@@ -236,7 +267,7 @@
         </article>
         <br><br>
 
-        <!-- Bonus Area ,Image Gallery -->
+        <!-- (Bonus-1) Area ,Image Gallery -->
 
         <article id="Gal" class="container">
           <h1 class="fs-1 fw-bold und">GALLERY</h1> <br> <br>
@@ -251,7 +282,7 @@
           </section>
         </article>
         <br> <br>
-        <!-- Controlling and Going  -->
+        <!-- Controlling and Going (Bonus-2)  -->
         <article class="container">
           <h5>Go To:-</h5>
           <div class="btn-group gap-1 d-flex justify-content-center flex-wrap" role="group" aria-label="Basic example">
