@@ -5,3 +5,21 @@ body{
 .btn-bg{
     background-color: #E76F51;
 }
+/* features css */
+.orange{
+    color: #E76F51;
+}
+.grayscale{
+    filter: grayscale(1);
+}
+/* client review */
+.col{
+    width: 322px;
+}
+.custom-img-size{
+    width: 149px;
+    margin-top: 40px;
+}
+.card-element-distance{
+    margin-bottom: 15px !important;
+}

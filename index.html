@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <!-- link with font awesome -->
+    <script src="https://kit.fontawesome.com/c2629e9dd3.js" crossorigin="anonymous"></script>
     <!-- link with custom css -->
     <link rel="stylesheet" href="custom-css/style.css">
 </head>
@@ -60,11 +62,98 @@
 
     <main>
         <!-- features bike section -->
-        <section>
-            <div><img class="img-fluid bg-gray-5" src="images/feature-bike.jpg" alt=""></div>
-            <div><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
-            <div><img class="img-fluid" src="images/feature-bike.jpg" alt=""></div>
-        </section>
+        <article class="container  my-5">
+            <!-- title  -->
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <h1 class="fs-1 fw-bold mb-0">Fetured Bikes 2021</h1>
+                <p class="fs-6 fw-bold mb-0 orange">Best Bike Collection</p>
+                <hr class="w-25 mt-1">   <!--as bootstrap doesn't use lower than 25% with -->
+            </div>
+            <!-- items  -->
+            <div class="row gy-5 gy-md-0 mt-5">
+                <!-- image grayscale -->
+                <div class="col d-flex justify-content-lg-start justify-content-center"><img width="288px" height="243px" class="grayscale" src="images/feature-bike.jpg" alt=""></div>
+                <div class="col d-flex justify-content-center"><img width="288px" height="243px" class="" src="images/feature-bike.jpg" alt=""></div>
+                <div class="col d-flex justify-content-lg-end justify-content-center"><img width="288px" height="243px" class="grayscale" src="images/feature-bike.jpg" alt=""></div>
+            </div>
+        </article>
+
+        <!-- Happy Client Reviews Section  -->
+
+        <!-- nb: According to the requirement, Using most of the bootstrap, couldn't match the actual width and height of the card with the fig file but that are the nearest size to the required size  -->
+
+        <article class="container mb-5">
+            <h1 class="fw-bold text-center mt-5 mb-5">Happy <span class="orange">Clients Says</span></h1>
+            <div class="row row-cols-1 row-cols-md-3 justify-content-evenly">
+              <div class="col p-0 mt-4 mt-md-0">
+                <div class="card image">
+                  <img src="images/user-1.png" class="card-img-top custom-img-size mx-auto" alt="...">
+                  <div class="card-body pt-0 mt-4 mb-3">
+                    <div class="card-text fs-6 d-flex g-2 flex-column justify-content-center align-items-center">
+                        <p class="m-0 fw-lighter">Slate helps you see how</p>
+                        <p class="m-0 fw-lighter">many more days you need</p>
+                        <p class="m-0 fw-lighter">to work to reach your financial</p>
+                        <p class="m-0 fw-lighter card-element-distance">goal for the month and year.</p>
+                        <p class="d-flex text-warning m-0 card-element-distance gap-1">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </p>
+                        <p class="text-primary fw-bold m-0 card-element-distance">Regina Miles</p>
+                        <p class="fw-bolder mb-0">Banker</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col p-0 mt-4 mt-md-0">
+                  <div class="card image">
+                    <img src="images/user-2.png" class="card-img-top custom-img-size mx-auto" alt="...">
+                    <div class="card-body pt-0 mt-4 mb-3">
+                      <div class="card-text fs-6 d-flex g-2 flex-column justify-content-center align-items-center">
+                          <p class="m-0 fw-lighter">Slate helps you see how</p>
+                          <p class="m-0 fw-lighter">many more days you need</p>
+                          <p class="m-0 fw-lighter">to work to reach your financial</p>
+                          <p class="m-0 fw-lighter card-element-distance">goal for the month and year.</p>
+                          <p class="d-flex text-warning m-0 card-element-distance gap-1">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </p>
+                          <p class="text-primary fw-bold m-0 card-element-distance">Regina Miles</p>
+                          <p class="fw-bolder mb-0">Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col p-0 mt-4 mt-md-0">
+                  <div class="card image">
+                    <img src="images/user-3.png" class="card-img-top custom-img-size mx-auto" alt="...">
+                    <div class="card-body pt-0 mt-4 mb-3">
+                      <div class="card-text fs-6 d-flex g-2 flex-column justify-content-center align-items-center">
+                          <p class="m-0 fw-lighter">Slate helps you see how</p>
+                          <p class="m-0 fw-lighter">many more days you need</p>
+                          <p class="m-0 fw-lighter">to work to reach your financial</p>
+                          <p class="m-0 fw-lighter card-element-distance">goal for the month and year.</p>
+                          <p class="d-flex text-warning m-0 card-element-distance gap-1">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </p>
+                          <p class="text-primary fw-bold m-0 card-element-distance">Regina Miles</p>
+                          <p class="fw-bolder mb-0">Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </article>
+
     </main>
     <footer>
 
