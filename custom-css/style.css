@@ -12,6 +12,9 @@ body{
 .grayscale{
     filter: grayscale(1);
 }
+.grayscale:hover{
+    filter: grayscale(0);
+}
 /* client review */
 .col{
     width: 322px;
@@ -22,4 +25,8 @@ body{
 }
 .card-element-distance{
     margin-bottom: 15px !important;
+}
+/* FAQ text color  */
+.text-half-black{
+    color: #383838;
 }

@@ -57,6 +57,7 @@
             </div>
         </section>
     </header>
+
     <!-- header area ended
     ----------------------->
 
@@ -64,27 +65,26 @@
         <!-- features bike section -->
         <article class="container  my-5">
             <!-- title  -->
-            <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="d-flex flex-column align-items-center justify-content-center"> <br>
                 <h1 class="fs-1 fw-bold mb-0">Fetured Bikes 2021</h1>
                 <p class="fs-6 fw-bold mb-0 orange">Best Bike Collection</p>
-                <hr class="w-25 mt-1">   <!--as bootstrap doesn't use lower than 25% with -->
-            </div>
+                <hr class="w-25 mt-1 mb-lg-5">   <!--as bootstrap doesn't use lower than 25% with -->
+            </div> <br> <br>
             <!-- items  -->
-            <div class="row gy-5 gy-md-0 mt-5">
+            <div class="row gy-5 gy-md-5 g-xl-0">
                 <!-- image grayscale -->
-                <div class="col d-flex justify-content-lg-start justify-content-center"><img width="288px" height="243px" class="grayscale" src="images/feature-bike.jpg" alt=""></div>
+                <div class="col d-flex justify-content-lg-start justify-content-center mt-md-0 mt-5"><img width="288px" height="243px" class="grayscale" src="images/feature-bike.jpg" alt=""></div>
                 <div class="col d-flex justify-content-center"><img width="288px" height="243px" class="" src="images/feature-bike.jpg" alt=""></div>
                 <div class="col d-flex justify-content-lg-end justify-content-center"><img width="288px" height="243px" class="grayscale" src="images/feature-bike.jpg" alt=""></div>
             </div>
-        </article>
-
+        </article> <br> <br>
         <!-- Happy Client Reviews Section  -->
 
         <!-- nb: According to the requirement, Using most of the bootstrap, couldn't match the actual width and height of the card with the fig file but that are the nearest size to the required size  -->
 
         <article class="container mb-5">
             <h1 class="fw-bold text-center mt-5 mb-5">Happy <span class="orange">Clients Says</span></h1>
-            <div class="row row-cols-1 row-cols-md-3 justify-content-evenly">
+            <section class="row row-cols-1 row-cols-md-3 gap-md-5 gap-xl-0 justify-content-evenly">
               <div class="col p-0 mt-4 mt-md-0">
                 <div class="card image">
                   <img src="images/user-1.png" class="card-img-top custom-img-size mx-auto" alt="...">
@@ -112,7 +112,7 @@
                     <img src="images/user-2.png" class="card-img-top custom-img-size mx-auto" alt="...">
                     <div class="card-body pt-0 mt-4 mb-3">
                       <div class="card-text fs-6 d-flex g-2 flex-column justify-content-center align-items-center">
-                          <p class="m-0 fw-lighter">Slate helps you see how</p>
+                          <p class="m-0 fw-lighter">Best services you give me</p>
                           <p class="m-0 fw-lighter">many more days you need</p>
                           <p class="m-0 fw-lighter">to work to reach your financial</p>
                           <p class="m-0 fw-lighter card-element-distance">goal for the month and year.</p>
@@ -123,8 +123,8 @@
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
                           </p>
-                          <p class="text-primary fw-bold m-0 card-element-distance">Regina Miles</p>
-                          <p class="fw-bolder mb-0">Banker</p>
+                          <p class="text-primary fw-bold m-0 card-element-distance">Xing Zilina</p>
+                          <p class="fw-bolder mb-0">Teacher</p>
                       </div>
                     </div>
                   </div>
@@ -134,8 +134,8 @@
                     <img src="images/user-3.png" class="card-img-top custom-img-size mx-auto" alt="...">
                     <div class="card-body pt-0 mt-4 mb-3">
                       <div class="card-text fs-6 d-flex g-2 flex-column justify-content-center align-items-center">
-                          <p class="m-0 fw-lighter">Slate helps you see how</p>
-                          <p class="m-0 fw-lighter">many more days you need</p>
+                          <p class="m-0 fw-lighter">They are recommended by me</p>
+                          <p class="m-0 fw-lighter">Service quality is super-class</p>
                           <p class="m-0 fw-lighter">to work to reach your financial</p>
                           <p class="m-0 fw-lighter card-element-distance">goal for the month and year.</p>
                           <p class="d-flex text-warning m-0 card-element-distance gap-1">
@@ -145,15 +145,95 @@
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
                           </p>
-                          <p class="text-primary fw-bold m-0 card-element-distance">Regina Miles</p>
-                          <p class="fw-bolder mb-0">Banker</p>
+                          <p class="text-primary fw-bold m-0 card-element-distance">Regina Alies</p>
+                          <p class="fw-bolder mb-0">Doctor</p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+            </section>
         </article>
-
+        <br> <br>
+        <!-- FAQ Article  -->
+        
+        <article class="container mb-5 mt-lg-5 px-4 px-md-0">
+          <h1 class="fs-1 fw-bold text-center mb-5">Frequently Asked <span class="orange">Questions</span></h1>
+          <section class="row align-items-center">
+            <div class="col-lg-6 col-12 d-flex justify-content-center mb-5 mb-lg-0">
+              <img width="425" height="397" class="img-fluid" src="images/faq.png" alt="">
+            </div>
+            <!-- Total Accordions  -->
+            <div class="col-lg-6 d-flex">
+              <div class="accordion" id="accordionExample">
+                <!-- First accordion -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button py-3 text-half-black fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What are the most important things I should
+                      know about riding a bike?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                    </div>
+                  </div>
+                </div>
+               <!-- Second accordion -->
+                <div class="accordion-item mt-4  border border-top-2">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button py-3 fw-bold text-half-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How can I tell if my helmet is old and I need a 
+                      new one?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
+                    </div>
+                  </div>
+                </div>
+                <!-- Third accordion -->
+                <div class="accordion-item mt-4 border border-top-2">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button py-3 fw-bold text-half-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What rules should I follow when riding my bike?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Go With the Traffic Flow. Ride on the right in the same direction as other vehicles.</li>
+                        <li>Obey All Traffic Laws. A bicycle is a vehicle and you're a driver.</li>
+                        <li>Yield to Traffic When Appropriate</li>
+                        <li>Be Predictable</li>
+                        <li>Stay Alert at All Times. </li>
+                        <li>Look Before Turning</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- fourth accordion -->
+                <div class="accordion accordion-flush mt-4 border border-2" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button py-3 fw-bold text-half-black collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        My bike has been in storage is it safe to ride?
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"><ul>
+                        <li>First of all, your tires are going to be deflated, it is normal after long periods of time on storage. Inflate them close to the recommended level, you can find that in the wall of the tire.</li>
+                        <li>Make sure your brakes work. First do it off your bike, make sure the brake pads make contact with the rim or the rotor appropriately. Then do it with while riding your bike around the block. Make sure you test it with enough speed, but do it safely. It is common for cables to stretch and for air to build up in hydraulic brakes.</li>
+                        <li>Make sure your drive train shifts gears correctly. Ride around and shift up and down making sure you can access all your gear combinations. Cable stretching can also make this not work correctly.</li>
+                        <li>Your chain will probably need re-lubrication (or even replacement). You will know this if it sounds off as you pedal your bike around.</li>
+                      </ul></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+        </article>
     </main>
     <footer>
 
